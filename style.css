@@ -2,6 +2,14 @@
 	box-sizing: border-box;
 }
 
+#main {
+	width: 95%;
+	text-align: left; 
+	margin: auto; 
+	padding: 10px;
+}
+
+
 body {
 	background-color: whitesmoke;
 	color: #666666;
@@ -48,6 +56,7 @@ h2 {
 h3 {
 	color: #000033;
 	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0px 5px 10px gray;
 }
 
 nav {
