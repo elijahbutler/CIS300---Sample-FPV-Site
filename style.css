@@ -110,9 +110,11 @@ footer {
 	color: white;
 }
 
-.contact {
-	font-size: 90%;
-	flex-grow: 1.5;
+.form {
+	display: flex;
+	justify-content: space-around;
+	padding:30px;
+	width: 95%;
 }	
 
 .homehero {
@@ -157,6 +159,7 @@ form {
 	display: flex;
 	flex-flow: column nowrap;
 	padding-left: 60px;
+	flex-grow: 1.5;
 }
 
 input[type=text],[type=email], select {
