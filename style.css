@@ -99,13 +99,17 @@ main {
 footer {
 	display: flex;
 	justify-content: space-around;
-	padding:30px;
+	padding:20px;
+	padding-bottom: 40px;
 	background-color: #081536 ;
-	height: 325px;
 	width: 100%;
 	color: rgb(189, 189, 189);
 }
 
+footer div {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .title {
 	color: white;
 }
@@ -170,7 +174,7 @@ input[type=text],[type=email], select {
 	margin-bottom: 10px; 
   }
 
-  textarea {
+textarea {
 	padding: 6px; 
 	border: 1px solid #ccc; 
 	border-radius: 4px; 
@@ -179,15 +183,15 @@ input[type=text],[type=email], select {
 	
   }
   
-  input[type=submit] {
-	background-color: gray;
+input[type=submit] {
+	background-color: rgb(214, 176, 118);
 	color: white;
-
+	padding: 5px;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
   }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
 	background-color: red;
   }
