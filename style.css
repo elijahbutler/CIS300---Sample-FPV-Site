@@ -110,6 +110,13 @@ footer div {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+footer a {
+	color: inherit;
+}
+footer a:visited {
+	color: inherit;
+}
+
 .title {
 	color: white;
 }
@@ -122,11 +129,16 @@ footer div {
 }	
 
 .homehero {
-	height: 300px;
-	width: auto;
+	max-height: 500px;
 	display: block;
 	margin: auto;
 	object-fit: fill;
+}
+
+.image-right-float {
+	padding: 20px; 
+	float: right; 
+	height: 450px;
 }
 
 .grid-container {
@@ -223,7 +235,6 @@ table a:visited {
 
   th:nth-child(odd),td:nth-child(odd) {
 	background-color: rgba(119, 136, 153, 0.151);
-	color: ;
   }
 thead {
 	font-style: italic;
