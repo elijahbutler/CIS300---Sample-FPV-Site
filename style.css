@@ -177,7 +177,7 @@ form {
 	display: flex;
 	flex-flow: column nowrap;
 	padding-left: 60px;
-	flex-grow: 1.5;
+	width: 500px;
 }
 
 input[type=text],[type=email], select {
